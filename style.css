@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo-bri{
+    height: 30px;
+    margin-left: -920px;
+    margin-right: 55vw;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F3F4FE;
+}
+
+nav{
+    display: flex;
+    padding: 15px;
+    padding-left: 70vw;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+nav ul li{
+    padding: 5px;
+    color: black;
+    display: inline;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a li:hover{
+    background-color: white;
+    color: black;
+}
+
+nav ul a li:active{
+    background-color: black;
+    color: white;
+}
+
+#self-photo{
+    border-radius: 30%;
+    height:180px;
+    object-fit: cover;
+}
+
+.identity, .form-identity-box{
+    margin: 10vh;
+    padding: 20px;
+    display: flex;
+    background-color: white ;
+    box-shadow: 10px black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.form-identity-box{
+    margin-top: -5vh;
+}
+
+.full-name{
+    margin-left: 5%;
+    padding-right: 2.5%;
+    margin-right: 2.5%;
+    border-right: 1px solid silver;
+}
+
+.identity td{
+    padding: 5px;
+}
+.form-identity{
+    width: 100%;
+}
+.form-identity input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline;
+    width:100%;
+    font-size: large;
+    padding: 5px;
+    border: 1px solid silver;
+}
+
+.form-identity label{
+    font-weight: bold;
+}
+
+.btn-submit{
+    padding: 10px!important;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.full-name h3{
+    margin-top: -30px;
+}
+
+.btn-group-fullname{
+    margin-top: 80px;
+}
+
+.full-name a{
+    text-decoration: none;
+}
+
+.btn-identity{
+    color: white;
+    padding: 10px 25px;
+}
+
+#btn-kontak{
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+#btn-resume{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
